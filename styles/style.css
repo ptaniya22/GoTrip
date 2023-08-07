@@ -209,6 +209,7 @@ a {
 
 .contacts {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .contact-title {
@@ -329,5 +330,19 @@ a {
 
   .main-about {
     margin-bottom: 15px;
+  }
+
+  .contacts-content {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .contacts-content-info {
+    gap: 0px;
+  }
+
+  .contacts {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
